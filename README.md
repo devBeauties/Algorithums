@@ -6,10 +6,13 @@
 
 <br>
 <br>
+<br>
 
 ## 🎯공동 목표
 - 한권의 책을 다같이 공부하고 완독한다.
 - 총 11챕터를 2020.11.30까지 끝내도록 한다.
+
+<br>
 
 ## ⚔규칙과 수금
 - 2주에 한 챕터씩 모든 실습, 연습문제를 풀어서 풀리퀘한다.
@@ -18,12 +21,16 @@
 - 최소한을 지키지 못한다면 **벌금 💸5,000원**
 - 마지막 회차때 수금된 벌금으로 고기먹는 **벌금벙**을 진행한다😁
 
+<br>
+
 ## 🙋‍♀️개인 목표
-- 🗣 LimJiNa 
-- 🗣 Hyeonseon : 코테로 당당히 회사 붙어보고 싶다아아앜!
-- 🗣 JangHyeyoung 
-- 🗣 florence96 
-- 🗣 Jihye 
+- LimJiNa 
+- Hyeonseon: 코테로 당당히 회사 붙어보고 싶다아아앜!
+- JangHyeyoung 
+- florence96 
+- Jihye 
+
+<br>
 
 ## ☑목표 체크 리스트
 |  | LimJiNa | Hyeonsun | JangHyeyoung | Jihye | florence96 |
