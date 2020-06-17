@@ -2,7 +2,7 @@ package chap01.practice;
 
 import java.util.Scanner;
 
-public class C1Q5 {
+public class C1Q05 {
 	public static void main(String[] args) {
 		/*
 		 * 연습문제 Q5

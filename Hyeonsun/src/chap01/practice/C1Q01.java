@@ -1,6 +1,6 @@
 package chap01.practice;
 
-public class C1Q1 {
+public class C1Q01 {
 	public static void main(String[] args) {
 		/*
 		 * 연습문제 Q1

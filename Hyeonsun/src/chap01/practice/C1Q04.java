@@ -1,6 +1,6 @@
 package chap01.practice;
 
-public class C1Q4 {
+public class C1Q04 {
 
 	public static void main(String[] args) {
 		/*
