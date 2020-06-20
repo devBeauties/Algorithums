@@ -1,7 +1,7 @@
 package chap01_practice;
 import java.util.Scanner;
 
-public class Chap01Q01 {
+public class C01Q01 {
     static int max4(int a, int b, int c, int d) {
         int max = a;
 
