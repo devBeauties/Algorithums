@@ -1,9 +1,9 @@
-package chap01;
+package chap01_Exercise;
 
 import java.util.Scanner;
 // 3개의 정숫값을 입력하고 최댓값을 구합니다.
 
-public class Exam1_1_Max3 {
+public class Max3 {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
