@@ -60,7 +60,7 @@
 <br>
 
 ## ☑목표 체크 리스트
-|  | LimJiNa | Hyeonsun | JangHyeyoung | Jihye | florence96 |
+|  | LimJiNa | Hyeonsun | JangHyeyoung | Jihye | Yejin |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |예시| O | 5,000 | PASS | X | O |
 |1회차(06/15 ~ 06/28)|| O || O | O |
