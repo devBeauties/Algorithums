@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 
  * static int sumOf(int[] a)
  */
-public class C2Q3 {
+public class C2Q03 {
 	static int sumOf(int[] a) {
 		int sum = 0;
 		for(int i = 0; i < a.length; i++) {

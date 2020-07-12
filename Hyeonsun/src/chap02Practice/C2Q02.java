@@ -15,7 +15,7 @@ import java.util.Scanner;
  * 42 -5 2 73 10 5
  * 역순 정렬을 마쳤습니다.
  */
-public class C2Q2 {
+public class C2Q02 {
 	
 	static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];

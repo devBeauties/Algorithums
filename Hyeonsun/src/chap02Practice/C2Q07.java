@@ -3,18 +3,25 @@ package chap02Practice;
 import java.util.Scanner;
 
 /*
- * 배열의 앞쪽에 아랫자리가 아니라 윗자리를 넣어두는 메서드를 작성하세요.
- * static int cardConv(int x, int r, char[] d)
+ * 기수 변환 과정을 자세히 나타내는 프로그램을 작성하세요.(70p)
  */
-public class C2Q6 {
+public class C2Q07 {
 	static int cardConv(int x, int r, char[] d) {
 		int digits = 0;
 		String dchar = "01234566789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		char result;
 		
+		System.out.println(r + " |       " + x);
 		do {
 			d[digits++] = dchar.charAt(x % r);
 			x /= r;
+			
+			System.out.println("  + --------");
+			if(x != 0) {
+				System.out.println(r + " |       " + x + " ''' " + d[digits-1]);				
+			}
 		}while(x != 0);
+		System.out.println("          " + x + " ''' " + d[digits-1]);			
 		
 		// 아랫자리 윗자리 교환
 		for(int i = 0; i < digits / 2; i++) {
@@ -57,5 +64,6 @@ public class C2Q6 {
 			System.out.print("한번 더 할까요? (1.예 / 0.아니오) : ");
 			retry = sc.nextInt();
 		}while(retry == 1);
+
 	}
 }

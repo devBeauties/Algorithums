@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * 메서드 dayOfYear를 변수 i와 days 없이 구현하세요. while문을 사용하세요.
  */
-public class C2Q8 {
+public class C2Q08 {
 	static int[][] mdays = {
 			{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},	//평년
 			{31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}	//윤년

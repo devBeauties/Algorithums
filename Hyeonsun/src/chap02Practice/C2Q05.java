@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 배열 b의 모든 요소를 배열 a에 역순으로 복사하는 메서드 rcopy를 작성하세요.
  * static void rcopy(int[] a, int[] b)
  */
-public class C2Q5 {
+public class C2Q05 {
 	static void rcopy(int[] a, int[] b) {
 		for(int i = b.length - 1; i >= 0 ; i--) {
 			a[b.length - 1 - i] = b[i];

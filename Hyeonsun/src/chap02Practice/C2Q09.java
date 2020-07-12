@@ -6,7 +6,7 @@ import java.util.Scanner;
  * y년 m월 d일의 그 해 남은 일 수 (12월 31일이면 9, 12월 30일이면 1)를 구하는 아래 메서드를 작성하세요.
  * static int leftDayOfYear(int y, int m, int d)
  */
-public class C2Q9 {
+public class C2Q09 {
 	static int[][] mdays = {
 			{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},	//평년
 			{31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}	//윤년
