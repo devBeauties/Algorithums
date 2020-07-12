@@ -6,11 +6,11 @@ public class Q08 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("nÀÇ °ª : ");
+		System.out.print("nì˜ ê°’ : ");
 		int n = scan.nextInt();
 		int sum = (n + 1) * (n / 2) + (n % 2 == 1 ? (n + 1) / 2 : 0);
 		
-		System.out.println("1ºÎÅÍ " + n + "±îÁöÀÇ Á¤¼öÀÇ ÇÕ : " + sum);
+		System.out.println("1ë¶€í„° " + n + "nê¹Œì§€ì˜ í•© : " + sum);
 		
 		scan.close();
 	}

@@ -10,19 +10,19 @@ public class Q10 {
 		int b;
 		int result;
 		
-		System.out.print("aÀÇ °ª : ");
+		System.out.print("aì˜ ê°’ : ");
 		a = scan.nextInt();
 		
 		do {
-			System.out.print("bÀÇ °ª : ");
+			System.out.print("bì˜ ê°’ : ");
 			b = scan.nextInt();
 			if (b <= a) {
-				System.out.println("aº¸´Ù Å« °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä!");
+				System.out.println("aë³´ë‹¤ í° ê°’ì„ ì…ë ¥í•˜ì„¸ìš”!");
 			}
 		} while (b <= a);
 		
 		result = b - a;
-		System.out.println("b - a´Â " + result + "ÀÔ´Ï´Ù.");
+		System.out.println("b - aëŠ” " + result + "ì…ë‹ˆë‹¤.");
 		
 		scan.close();
 	}

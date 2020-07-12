@@ -1,21 +1,21 @@
 package chap01_Exercise;
 
 import java.util.Scanner;
-// 2ÀÚ¸®ÀÇ ¾ç¼ö(10 ~ 99)¸¦ ÀÔ·ÂÇÕ´Ï´Ù.
+// 2ìë¦¬ì˜ ì–‘ìˆ˜(10 ~ 99)ë¥¼ ì…ë ¥í•©ë‹ˆë‹¤.
 
 public class Digits {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		int no;
 		
-		System.out.println("2ÀÚ¸®ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("2ìë¦¬ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		
 		do {
-			System.out.print("ÀÔ·Â : ");
+			System.out.print("ì…ë ¥ : ");
 			no = stdIn.nextInt();
 		} while (no < 10 || no > 99);
 		
-		System.out.println("º¯¼ö noÀÇ °ªÀº " + no + "°¡(ÀÌ) µÇ¾ú½À´Ï´Ù.");
+		System.out.println("ë³€ìˆ˜ noì˜ ê°’ì€ " + no + "ê°€(ì´) ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		
 		stdIn.close();
 	}

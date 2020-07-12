@@ -1,21 +1,21 @@
 package chap01_Exercise;
 
 import java.util.Scanner;
-// ÀÔ·ÂÇÑ Á¤¼ı°ªÀÌ ¾ç¼öÀÎÁö À½¼öÀÎÁö 0ÀÎÁö ÆÇ´ÜÇÕ´Ï´Ù.
+// ì…ë ¥í•œ ì •ìˆ«ê°’ì´ ì–‘ìˆ˜ì¸ì§€ ìŒìˆ˜ì¸ì§€ 0ì¸ì§€ íŒë‹¨í•©ë‹ˆë‹¤.
 
 public class JudgeSign {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+		System.out.print("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
 		int n = stdIn.nextInt();
 		
 		if (n > 0)
-			System.out.println("ÀÌ ¼ö´Â ¾ç¼öÀÔ´Ï´Ù.");
+			System.out.println("ì´ ìˆ˜ëŠ” ì–‘ìˆ˜ì…ë‹ˆë‹¤.");
 		else if (n < 0)
-			System.out.println("ÀÌ ¼ö´Â À½¼öÀÔ´Ï´Ù.");
+			System.out.println("ì´ ìˆ˜ëŠ” ìŒìˆ˜ì…ë‹ˆë‹¤.");
 		else
-			System.out.println("ÀÌ ¼ö´Â 0ÀÔ´Ï´Ù.");
+			System.out.println("ì´ ìˆ˜ëŠ” 0ì…ë‹ˆë‹¤.");
 		
 		stdIn.close();
 	}
