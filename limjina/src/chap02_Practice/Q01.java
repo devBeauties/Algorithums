@@ -3,7 +3,7 @@ package chap02_Practice;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Q1 {
+public class Q01 {
 	static int maxOf(int[] a) {
 		int max = a[0];
 		for (int i = 0; i < a.length; i++) {
@@ -20,17 +20,17 @@ public class Q1 {
 		Scanner scan = new Scanner(System.in);
 		
 		int num = rand.nextInt(10);
-		System.out.print("»ç¶÷ ¼ö : " + num + "\n");
+		System.out.print("ì‚¬ëžŒ ìˆ˜ : " + num + "\n");
 		
 		int[] height = new int[num];
 		
-		System.out.println("Å° °ªÀº ¾Æ·¡¿Í °°½À´Ï´Ù.");
+		System.out.println("í‚¤ ê°’ì€ ì•„ëž˜ì™€ ê°™ìŠµë‹ˆë‹¤.");
 		for (int i = 0; i < num; i++) {
 			height[i] = 100 + rand.nextInt(90);
-			System.out.println("height[" + i + "] : " + height[i] + "ÀÔ´Ï´Ù.");
+			System.out.println("height[" + i + "] : " + height[i]);
 		}
 		
-		System.out.println("ÃÖ´ñ°ªÀº " + maxOf(height) + "ÀÔ´Ï´Ù.");
+		System.out.println("ìµœëŒ“ê°’ì€ " + maxOf(height) + "ìž…ë‹ˆë‹¤.");
 		
 		scan.close();
 	}

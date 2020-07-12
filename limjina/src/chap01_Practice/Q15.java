@@ -1,7 +1,7 @@
 package chap01_Practice;
 
 public class Q15 {
-	// ¿ŞÂÊ ¾Æ·¡°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢Çü
+	// ì™¼ìª½ ì•„ë˜ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•
 	static void triangleLB(int n) {
 		for(int i = 1; i <= n; i++) {
 			for(int j = 1; j <= i; j++) {
@@ -11,7 +11,7 @@ public class Q15 {
 		}
 	}
 	
-	// ¿ŞÂÊ À§°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢Çü
+	// ì™¼ìª½ ìœ„ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•
 	static void triangleLU(int n) {
 		for(int i = 1; i <= n; i++) {
 			for(int j = i; j <= n; j++) {
@@ -21,7 +21,7 @@ public class Q15 {
 		}
 	}
 	
-	// ¿À¸¥ÂÊ À§°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢Çü
+	// ì˜¤ë¥¸ìª½ ìœ„ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•
 	static void triangleRU(int n) {
 		for(int i = 1; i <= n; i++) {
 			for(int j = 1; j <= i - 1; j++) {
@@ -34,7 +34,7 @@ public class Q15 {
 		}
 	}
 	
-	// ¿À¸¥ÂÊ ¾Æ·¡°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢Çü
+	// ì˜¤ë¥¸ìª½ ì•„ë˜ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•
 	static void triangleRB(int n) {
 		for(int i = 1; i <= n; i++) {
 			for(int j = 1; j <= n - i; j++) {

@@ -6,8 +6,8 @@ public class Q06 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("1ºÎÅÍ n±îÁöÀÇ ÇÕÀ» ±¸ÇÕ´Ï´Ù.");
-		System.out.print("nÀÇ °ª : ");
+		System.out.println("1ë¶€í„° nê¹Œì§€ì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤.");
+		System.out.print("nì˜ ê°’ : ");
 		int n = scan.nextInt();
 		
 		int sum = 0;
@@ -18,8 +18,8 @@ public class Q06 {
 			i++;
 		}
 		
-		System.out.println("while¹®ÀÌ Á¾·áµÉ ¶§ º¯¼ö iÀÇ °ªÀº : " + i);
-		System.out.println("1ºÎÅÍ " + n + "±îÁöÀÇ ÇÕÀº " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("whileë¬¸ì´ ì¢…ë£Œë  ë•Œ ë³€ìˆ˜ iì˜ ê°’ : " + i);
+		System.out.println("1ë¶€í„° " + n + "ê¹Œì§€ì˜ í•©ì€ " + sum + "ì…ë‹ˆë‹¤.");
 		
 		scan.close();
 	}

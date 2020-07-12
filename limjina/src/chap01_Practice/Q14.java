@@ -6,8 +6,8 @@ public class Q14 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("»ç°¢ÇüÀ» Ãâ·ÂÇÕ´Ï´Ù.");
-		System.out.print("´Ü ¼ö : ");
+		System.out.println("ì‚¬ê°í˜•ì„ ì¶œë ¥í•©ë‹ˆë‹¤.");
+		System.out.print("ë‹¨ ìˆ˜ : ");
 		int n = scan.nextInt();
 		
 		for(int i = 0; i < n; i++) {

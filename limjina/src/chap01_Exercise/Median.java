@@ -1,7 +1,7 @@
 package chap01_Exercise;
 
 import java.util.Scanner;
-// 3°³ÀÇ Á¤¼ı°ªÀ» ÀÔ·ÂÇÏ°í Áß¾Ó°ªÀ» ±¸ÇÑ ´ÙÀ½ Ãâ·ÂÇÕ´Ï´Ù.
+// 3ê°œì˜ ì •ìˆ«ê°’ì„ ì…ë ¥í•˜ê³  ì¤‘ì•™ê°’ì„ êµ¬í•œ ë‹¤ìŒ ì¶œë ¥í•©ë‹ˆë‹¤.
 
 public class Median {
 	static int med3(int a, int b, int c) {
@@ -23,15 +23,15 @@ public class Median {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
-		System.out.println("¼¼ Á¤¼öÀÇ Áß¾Ó°ªÀ» ±¸ÇÕ´Ï´Ù.");
-		System.out.print("aÀÇ °ª : ");
+		System.out.println("ì„¸ ì •ìˆ˜ì˜ ì¤‘ì•™ê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
+		System.out.print("aì˜ ê°’ : ");
 		int a = stdIn.nextInt();
-		System.out.print("bÀÇ °ª : ");
+		System.out.print("bì˜ ê°’ : ");
 		int b = stdIn.nextInt();
-		System.out.print("cÀÇ °ª : ");
+		System.out.print("cì˜ ê°’ : ");
 		int c = stdIn.nextInt();
 
-		System.out.println("Áß¾Ó°ªÀº " + med3(a, b, c) + "ÀÔ´Ï´Ù.");
+		System.out.println("ì¤‘ì•™ê°’ì€ " + med3(a, b, c) + "ì…ë‹ˆë‹¤.");
 		
 		stdIn.close();
 	}

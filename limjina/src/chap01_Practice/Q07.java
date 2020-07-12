@@ -6,7 +6,7 @@ public class Q07 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("nÀÇ °ª : ");
+		System.out.print("nì˜ ê°’ : ");
 		int n = scan.nextInt();
 		
 		int sum = 0;

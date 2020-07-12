@@ -1,26 +1,27 @@
 package chap01_Exercise;
 
 import java.util.Scanner;
+// 1, 2, ..., nì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤(ì–‘ìˆ˜ë§Œ ì…ë ¥).
 
 public class SumForPos {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		int n;
 		
-		System.out.println("1ºÎÅÍ n±îÁöÀÇ ÇÕÀ» ±¸ÇÕ´Ï´Ù.");
+		System.out.println("1ë¶€í„° nê¹Œì§€ì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤.");
 		
 		do {
-			System.out.print("nÀÇ °ª : ");
+			System.out.print("nì˜ ê°’ : ");
 			n = stdIn.nextInt();
 		} while (n <= 0);
 		
-		int sum = 0;
+		int sum = 0; // í•©
 		
 		for (int i = 1; i <= n; i++) {
-			sum += i;
+			sum += i; // sumì— ië¥¼ ë”í•©ë‹ˆë‹¤.
 		}
 		
-		System.out.println("1ºÎÅÍ " + n + "±îÁöÀÇ ÇÕÀº " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("1ë¶€í„° " + n + "ê¹Œì§€ì˜ í•©ì€ " + sum + "ì…ë‹ˆë‹¤.");
 		
 		stdIn.close();
 	}

@@ -8,7 +8,7 @@ public class Q11 {
 		
 		int n;
 		do {
-			System.out.print("¾çÀÇ Á¤¼ö ÀÔ·Â : ");
+			System.out.print("ì–‘ì˜ ì •ìˆ˜ ì…ë ¥ : ");
 			n = scan.nextInt();
 		} while (n <= 0);
 		
@@ -18,7 +18,7 @@ public class Q11 {
 			count++;
 		}
 		
-		System.out.println("±× ¼ö´Â " + count + "ÀÚ¸®ÀÔ´Ï´Ù.");
+		System.out.println("ê·¸ ìˆ˜ëŠ” " + count + "ìë¦¬ì…ë‹ˆë‹¤.");
 		
 		scan.close();
 	}

@@ -1,25 +1,25 @@
 package chap01_Exercise;
 
 import java.util.Scanner;
-// 1, 2, ... , nÀÇ ÇÕÀ» ±¸ÇÕ´Ï´Ù.
+// 1, 2, ... , nì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤.
 
 public class SumWhile {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.println("1ºÎÅÍ n±îÁöÀÇ ÇÕÀ» ±¸ÇÕ´Ï´Ù.");
-		System.out.print("nÀÇ °ª : ");
+		System.out.println("1ë¶€í„° nê¹Œì§€ì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤.");
+		System.out.print("nì˜ ê°’ : ");
 		int n = stdIn.nextInt();
 		
-		int sum = 0;
+		int sum = 0; // í•©
 		int i = 1;
 		
-		while (i <= n) {
-			sum += i;
-			i++;
+		while (i <= n) { // iê°€ n ì´í•˜ë©´ ë°˜ë³µí•©ë‹ˆë‹¤.
+			sum += i; // sumì— ië¥¼ ë”í•©ë‹ˆë‹¤.
+			i++; // iê°’ì„ 1ë§Œí¼ ì¦ê°€ì‹œí‚µë‹ˆë‹¤.
 		}
 		
-		System.out.println("1ºÎÅÍ " + n + "±îÁöÀÇ ÇÕÀº " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("1ë¶€í„° " + n + "ê¹Œì§€ì˜ í•©ì€ " + sum + "ì…ë‹ˆë‹¤.");
 		
 		stdIn.close();
 	}
