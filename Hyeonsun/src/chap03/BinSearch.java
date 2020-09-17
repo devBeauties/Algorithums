@@ -2,6 +2,9 @@ package chap03;
 
 import java.util.Scanner;
 
+/*
+ * 이진검색 
+ */
 public class BinSearch {
 
 	static int binSearch(int[] a, int n, int key) {
