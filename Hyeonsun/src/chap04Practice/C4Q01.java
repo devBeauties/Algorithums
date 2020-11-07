@@ -111,7 +111,7 @@ public class C4Q01 {
 					if(result) {
 						System.out.println("스택은 가득 차있습니다.");						
 					}else {
-						System.out.println("스택은 가득 차있지 습니다.");						
+						System.out.println("스택은 가득 차있지않습니다.");						
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
